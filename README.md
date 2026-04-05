@@ -52,7 +52,14 @@ Host github.com-HesarYasin
 cat ~/.ssh/id_HesarYasin.pub
 
 #you need to have a repository in github first then you can push your local to the remote (Github):
+#first make an origion in your computer (local):
 git remote add origin git@github.com-yasinHesar:yasinHesar/WorkOnPythonExercises.git
-git push -u origin master
+#then you can push or pull (-u means you can push whenever you want without writing origin master . just git push is ok after first time.
+git push -u origin master 
+or
+git pull <remote-name> <branch-name>
+
+this shows which remote you work on:
+git remote -v
 # How to switch between the Github accounts:
 $ ssh -T git@github.com-yasinHesar
