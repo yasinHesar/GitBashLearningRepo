@@ -50,3 +50,5 @@ Host github.com-HesarYasin
     IdentityFile ~/.ssh/id_HesarYasin
 
 cat ~/.ssh/id_HesarYasin.pub
+# How to switch between the Github accounts:
+$ ssh -T git@github.com-yasinHesar
