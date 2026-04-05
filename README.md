@@ -28,3 +28,25 @@ git config --global user.email
 git config --global --list
 git config --local --list
 git clone https://github.com/yasinHesar/GitBashLearningRepo.git
+
+
+# Create first SSH key for yasinHesar
+# Create key for yasinHesar
+$ ssh-keygen -t ed25519 -C "yasin.esameili@gmail.com" -f ~/.ssh/id_yasinHesar
+create config
+nano ~/.ssh/config
+Enter the following in the config:
+$ cat ~/.ssh/config
+# Account 1: yasinHesar
+Host github.com-yasinHesar
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_yasinHesar
+
+# Account 2: HesarYasin
+Host github.com-HesarYasin
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_HesarYasin
+
+cat ~/.ssh/id_HesarYasin.pub
