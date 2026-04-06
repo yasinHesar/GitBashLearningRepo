@@ -28,6 +28,7 @@ git config --global user.email
 git config --global --list
 git config --local --list
 git clone https://github.com/yasinHesar/GitBashLearningRepo.git
+git show <commit-hash>
 
 
 # Create first SSH key for yasinHesar
