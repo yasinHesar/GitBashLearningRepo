@@ -33,6 +33,9 @@ git tag
 git tag -a v1.0 -m 'This going to be my first v1.0 of the program'
 git show v1.0
 git tag -l "v*"
+git push origin v1.0
+git push origin --tags
+
 
 # Create first SSH key for yasinHesar
 # Create key for yasinHesar
