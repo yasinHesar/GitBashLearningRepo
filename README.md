@@ -29,6 +29,9 @@ git config --global --list
 git config --local --list
 git clone https://github.com/yasinHesar/GitBashLearningRepo.git
 git show <commit-hash>
+git tag
+git tag -a v1.0 -m 'This going to be my first v1.0 of the program'
+git show v1.0
 
 
 # Create first SSH key for yasinHesar
