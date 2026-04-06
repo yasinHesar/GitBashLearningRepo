@@ -32,7 +32,7 @@ git show <commit-hash>
 git tag
 git tag -a v1.0 -m 'This going to be my first v1.0 of the program'
 git show v1.0
-
+git tag -l "v*"
 
 # Create first SSH key for yasinHesar
 # Create key for yasinHesar
