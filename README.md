@@ -35,6 +35,7 @@ git show v1.0
 git tag -l "v*"
 git push origin v1.0
 git push origin --tags
+git checkout -b hotfix-v1.0
 
 
 # Create first SSH key for yasinHesar
