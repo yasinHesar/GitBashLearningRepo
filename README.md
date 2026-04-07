@@ -31,6 +31,9 @@ git clone https://github.com/yasinHesar/GitBashLearningRepo.git
 git show <commit-hash>
 git tag
 git tag -a v1.0 -m 'This going to be my first v1.0 of the program'
+
+You can tag any commit as your version.
+git tag -a v1.8 <commit-hash>
 git show v1.0
 git tag -l "v*"
 git push origin v1.0
